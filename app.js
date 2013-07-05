@@ -70,7 +70,7 @@ app.configure('production', function() {
 // jelen esetben szeretnénk, ha az index.html lenne használva
 // a public-ból, amikor betöltjük az oldalt.
 //app.get("/", routes.index);
-
+app.post("/link", routes.addLink);
 
 // Ha egyik fentebbi route sem volt jó, akkor
 // dobjunk egy 404-es oldalt
@@ -91,7 +91,7 @@ app.use(function(req, res, next){
 // irjuk ki a console-ra eme csodás pillanatot, milyen portot kapott
 // és milyen NODE_ENV-ben fut
 var httpServer = http.createServer(app).listen(app.get('port'), function(){
-  console.log("Express server listening on port "
-               + app.get('port')
-               + " (" + app.settings.env + ")");
+  console.log("Express server listening on port " +
+                app.get('port') +
+                " (" + app.settings.env + ")");
 });
