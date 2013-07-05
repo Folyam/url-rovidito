@@ -41,7 +41,7 @@ var App = {
         // és az igaz, akkor adjuk vissza
         // a felhasználónak a hozzá tartozó
         // hibaüzenetet.
-        if (data.hasOwnProperty('error') && data.error == true) {
+        if (data.hasOwnProperty('error') && data.error === true) {
           alert(data.message);
           return false;
         }
