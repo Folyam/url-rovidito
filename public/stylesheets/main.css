@@ -61,17 +61,20 @@ table th {
   border-bottom: 1px solid #DB6500;
 }
 
-table th:nth-child(1),
+table th:nth-child(1) {
+  width: 30%
+}
 table th:nth-child(2) {
-  width: 40%;
+  width: 45%;
 }
 table th:nth-child(3) {
   width: 5%;
 }
 table th:nth-child(4) {
-  width: 15%;
+  width: 20%;
 }
 
 table td {
-  padding: 0.5%;
+  padding: 0.3%;
+  font-size: 1.1em;
 }
