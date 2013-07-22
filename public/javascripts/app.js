@@ -1,7 +1,7 @@
 var App = {
   controllers: {},
   configuration: {
-    domain: "s.l",
+    domain: "url-rovidito.folyam.info",
     protocol: "http"
   },
   utils: {}

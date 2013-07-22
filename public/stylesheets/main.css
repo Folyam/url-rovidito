@@ -2,3 +2,81 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+html {
+	background-color: #FFDFC4;
+}
+
+a {
+	color: #00AD0B;
+}
+
+form {
+	padding: 1%;
+	border: 1px solid #DB6500;
+	border-radius: 10px;
+	width: 78%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: #FFB06D;
+}
+
+form input {
+	font-size: 2em;
+	padding: 1%;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+}
+
+form input[type="text"] {
+	width: 90%;
+}
+
+form input[type="submit"] {
+	width: 8%;
+	background-color: #69F773;
+	color: #12B51D;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #00AD0B;
+	color: #BEF7C2;
+}
+
+table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #DB6500;
+	background-color: white;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+table th {
+	text-align: left;
+	width: 25%;
+	border-bottom: 1px solid #DB6500;
+}
+
+table th:nth-child(1),
+table th:nth-child(2) {
+	width: 40%;
+}
+table th:nth-child(3) {
+	width: 5%;
+}
+table th:nth-child(4) {
+	width: 15%;
+}
+
+table td {
+	font-size: 1.2em;
+	padding: 0.5%;
+}
+
+table tr td:nth-child(4) {
+	font-size: 0.8em;
+}
